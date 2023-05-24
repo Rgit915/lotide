@@ -10,14 +10,14 @@ const assertEqual = function(actual, expected) {
 // return a count of each letters in a sentence
 const countLetters = function(sentence) {
   const count = {}; // to store the counts of each letter
-  for(const letter of sentence){
+  for (const letter of sentence) {
     if (count[letter]) {
       count[letter] += 1; //if the letter already exists increment by 1
-      } else {
-        count[letter] = 1; //if it doesn't exist,it will be added to the object with count 1
-      }
+    } else {
+      count[letter] = 1; //if it doesn't exist,it will be added to the object with count 1
     }
-    return count;
+  }
+  return count;
 };
 
 //Test Cases
