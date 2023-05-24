@@ -19,15 +19,15 @@ const eqArrays = function(arr1, arr2) {
 };
 //The assertArraysEqual() function takes 2 arrays as arguments
 // and uses our eqArrays() function to compare them
-function assertArraysEqual(arr1, arr2) {
+const assertArraysEqual = function(arr1, arr2) {
   if (eqArrays(arr1, arr2)) {
     console.log(`✅✅✅ Assertion Passed: [${arr1}] === [${arr2}]`);
   } else {
     console.log(`🔴🔴🔴 Assertion Failed: [${arr1}] !== [${arr2}]`);
   }
-}
+};
 // Function to find the middle element(s) of an array
-function middle(array) {
+const middle = function(array) {
   const length = array.length;
   const midIndex = Math.floor(length / 2);
 
@@ -38,7 +38,7 @@ function middle(array) {
   } else {
     return [array[midIndex - 1], array[midIndex]];
   }
-}
+};
 //Test Cases:
 assertArraysEqual(middle([]), []); // Empty array, expects []
 assertArraysEqual(middle([1, 2, 3, 4, 5, 6, 7]), [4]); // Odd number of elements, expects [4]
