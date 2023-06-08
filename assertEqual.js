@@ -7,8 +7,7 @@ const assertEqual = function(actual, expected) {
   }
 };
 
-// TEST CODE
-assertEqual("lotide", "lotide");
-assertEqual("Lighthouse Labs", "Bootcamp");
-assertEqual(5, 15);
-assertEqual(1, 1);
+
+
+//Export the `assertEqual()` function using variable `assertEqual` only
+module.exports = assertEqual;
