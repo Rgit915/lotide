@@ -42,7 +42,7 @@ const eqObjects = function(object1, object2){
         return false;
       }
     } else {
-      if (value1 !== value2) { //if values are not arrays, assuming primitives & compare two values using ===
+      if (value1 !== value2) { //if values are not arrays, assuming primitives & compare two values using ===ls
         return false;
       }
     }
