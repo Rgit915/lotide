@@ -1,4 +1,4 @@
-//
+//Import asserEqual file
 const assertEqual = require('../assertEqual');
 // TEST CODE
 assertEqual("lotide", "lotide");
