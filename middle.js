@@ -1,4 +1,4 @@
-//Implement flatten()
+//Implement function middle
 //eqarrays function compares the two arrays
 const eqArrays = function(arr1, arr2) {
   if (arr1.length !== arr2.length) {
