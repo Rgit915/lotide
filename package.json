@@ -1,8 +1,8 @@
 {
-  "name": "lotide",
+  "name": "@rorina/lotide",
   "version": "1.0.0",
-  "description": "This repository is for my project lotide which is a clone of the [lodash](https://lodash.com/) JavaScript library to practice creating various types of functions using JS.    The Lotide project is a modular collection of functions that operate on data, namely Arrays and Objects.",
-  "main": "assertArraysEqual.js",
+  "description": "This is part of my Assignment lotide which is a mini clone of the [lodash](https://lodash.com/) JavaScript library to practice creating various types of functions that operate on Arrays and Objects.",
+  "main": "index.js",
   "directories": {
     "test": "test"
   },
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/Rgit915/lotide.git"
   },
-  "author": "",
+  "author": "Rora Alem",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Rgit915/lotide/issues"
