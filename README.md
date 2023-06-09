@@ -29,7 +29,7 @@ The following functions currently implemented are listed alphabetically below :
 
 * `assertArraysEqual(...)`  : function which takes in two arrays and prints an appropriate message after comparing the two given arrays.
 
-* `assertEqual(...)`        : custom assertion function which compares two values and prints out a colorful message to console in both success and failur.Emojis are used to add visuals and color to the assertion output. 
+* `assertEqual(...)`        : custom assertion function which compares two values and prints out a colorful message to console in both success and failure.Emojis are used to add visuals and color to the assertion output. 
 
 * `assertObjectsEqual(...)` : takes in two objects to compare and logs an approprate assertion emoji included messages to the console.
 
