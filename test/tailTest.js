@@ -1,4 +1,3 @@
-///Import asserEqual file 
 const assert = require('chai').assert;
 const tail = require('../tail');
 describe("#tail", () => {
