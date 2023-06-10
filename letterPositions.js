@@ -2,7 +2,7 @@
 //it'll return all indices in the string
 //Note that indices are Zero-based
 const letterPositions = function(sentence) {
-  const results = {}; //empty object to store the indices
+const results = {}; //empty object to store the indices
   // logic to update results here
   //Iterating over each character of the sentence using for loop
   for (let i = 0; i < sentence.length; i++) {
@@ -21,4 +21,4 @@ const letterPositions = function(sentence) {
 };
 
 //Exporting letterPositions function
-module.export = letterPositions
+module.export = letterPositions;
