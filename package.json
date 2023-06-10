@@ -1,6 +1,6 @@
 {
   "name": "@rorina/lotide",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is part of my Assignment lotide which is a mini clone of the [lodash](https://lodash.com/) JavaScript library to practice creating various types of functions that operate on Arrays and Objects.",
   "main": "index.js",
   "directories": {
