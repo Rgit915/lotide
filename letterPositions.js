@@ -21,4 +21,4 @@ const results = {}; //empty object to store the indices
 };
 
 //Exporting letterPositions function
-module.export = letterPositions;
+module.exports = letterPositions;
